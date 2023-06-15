@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    This Feature tests heroes page scenarios",
+    "keyword": "Feature",
+    "name": "Heroes Functionality",
+    "line": 1,
+    "id": "heroes-functionality",
+    "tags": [],
+    "uri": "HeroPage.feature",
+    "elements": [
+      {
+        "id": "heroes-functionality;as-a-toh-user,-i-want-to-see-to-all-9-heroes",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "As a TOH user, I want to see to all 9 heroes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the heroes page",
+            "result": {
+              "status": "passed",
+              "duration": 332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "all heroes will be visible",
+            "result": {
+              "status": "passed",
+              "duration": 507000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "heroes-functionality;as-a-toh-user,-i-want-to-remove-a-hero",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "As a TOH user, I want to remove a hero",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the heroes page",
+            "result": {
+              "status": "passed",
+              "duration": 343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "see the hero list decrease",
+            "result": {
+              "status": "passed",
+              "duration": 638000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

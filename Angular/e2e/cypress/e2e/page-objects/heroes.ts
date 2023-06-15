@@ -2,7 +2,9 @@ class Heroes{
 
     // Selectors
     allHeroes = 'app-heroes > ul.heroes > li > a';
-    deleteheroe = 'body > app-root > app-heroes > ul > li:nth-child(1) > button';
+    deleteheroe = "body > app-root > app-heroes > ul > li:nth-child(3) > button";
+    addHero = "body > app-root > app-heroes > div > button";
+    inputHero = "#new-hero";
     
     // Action Methods
     
@@ -14,6 +16,15 @@ class Heroes{
     DeleteHero()
     {
         cy.get(this.deleteheroe).click();
+    }
+
+    AddHero()
+    {
+        cy.get(this.addHero).click();
+    }
+    InputHero()
+    {
+        cy.get(this.inputHero).type("hello");
     }
 
 

@@ -23,7 +23,7 @@
             "name": "the user is on the heroes page",
             "result": {
               "status": "passed",
-              "duration": 332000000
+              "duration": 336000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "all heroes will be visible",
             "result": {
               "status": "passed",
-              "duration": 507000000
+              "duration": 505000000
             }
           }
         ]
@@ -53,17 +53,67 @@
             "name": "the user is on the heroes page",
             "result": {
               "status": "passed",
-              "duration": 343000000
+              "duration": 377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "when the user removes a hero",
+            "result": {
+              "status": "passed",
+              "duration": 604000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
+            "line": 16,
             "name": "see the hero list decrease",
             "result": {
               "status": "passed",
-              "duration": 638000000
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "heroes-functionality;as-a-toh-user,-i-want-to-add-a-hero",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "As a TOH user, I want to add a hero",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the heroes page",
+            "result": {
+              "status": "passed",
+              "duration": 260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "when the user enters an input{x} a hero",
+            "result": {
+              "status": "passed",
+              "duration": 224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "see the hero {x} is added to the list",
+            "result": {
+              "status": "passed",
+              "duration": 3105000000
             }
           }
         ]
